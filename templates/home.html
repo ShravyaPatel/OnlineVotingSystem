@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Online Voting</h1>
+        <p>Cast your vote below:</p>
+        <a href="{{ url_for('vote') }}" class="button">Vote Now</a>
+    </div>
+</body>
+</html>
